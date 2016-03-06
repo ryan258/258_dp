@@ -1,0 +1,84 @@
+nav.navbar.navbar-inverse
+  .container-fluid
+    // Brand and toggle get grouped for better mobile display
+    .navbar-header
+      button(type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false").navbar-toggle.collapsed
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a(href="{{ site.baseurl }}/").navbar-brand Distinct Pawn
+
+    // Collect the nav links, forms, and other content for toggling
+    .collapse.navbar-collapse#bs-example-navbar-collapse-1
+      ul.nav.navbar-nav
+        
+        li: a(href="{{ site.baseurl }}/services") Services
+        li: a(href="{{ site.baseurl }}/products") Products
+        li: a(href="{{ site.baseurl }}/directions") Directions
+            // li <a href="#">Blog Post</a>
+            // li(role="separator").divider
+            // li <a href="/services">Services</a>
+            // li(role="separator").divider
+            // li <a href="#">One more separated link</a>
+
+      ul.nav.navbar-nav.navbar-right
+        //li: a(href="#") Link
+        li.dropdown
+          a(href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false").dropdown-toggle Services <span class="caret"></span>
+          ul.dropdown-menu
+            li: a(href="{{ site.baseurl }}/services/") Overview
+            li: a(href="{{ site.baseurl }}/services/loans") Loans
+            li: a(href="{{ site.baseurl }}/services/buy") Buy
+            li: a(href="{{ site.baseurl }}/services/sell") Sell
+            li: a(href="{{ site.baseurl }}/services/trade") Trade
+            li: a(href="{{ site.baseurl }}/services/consignment") Consignment
+            li: a(href="{{ site.baseurl }}/services/sales") Estate & Moving Sales
+        li.dropdown
+          a(href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false").dropdown-toggle Products <span class="caret"></span>
+          ul.dropdown-menu
+            li: a(href="{{ site.baseurl }}/products/") Products Overview
+            li: a(href="{{ site.baseurl }}/products/guns") Guns
+            li: a(href="{{ site.baseurl }}/products/jewelry") Jewelry & Watches
+            li: a(href="{{ site.baseurl }}/products/electronics") Electronics
+            li: a(href="{{ site.baseurl }}/products/music") Music Equipment
+            li: a(href="{{ site.baseurl }}/products/guitars") Guitars
+            li: a(href="{{ site.baseurl }}/products/tools") Tools
+            li: a(href="{{ site.baseurl }}/products/tvs") TV's - LED & LCD
+            li: a(href="{{ site.baseurl }}/products/coins") Coins
+            li: a(href="{{ site.baseurl }}/products/laptops") Laptops
+            li: a(href="{{ site.baseurl }}/products/ipads") iPads
+            li: a(href="{{ site.baseurl }}/products/android-tablets") Android Tablets
+            li: a(href="{{ site.baseurl }}/products/cell-phones") Cell Phones
+            li: a(href="{{ site.baseurl }}/products/cameras") Cameras
+            li: a(href="{{ site.baseurl }}/products/gold-silver") Gold & Silver
+            li: a(href="{{ site.baseurl }}/products/game-systems") Game Systems
+            li: a(href="{{ site.baseurl }}/products/fishing") Fishing Equipment
+        li.dropdown
+          a(href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false").dropdown-toggle CTs <span class="caret"></span>
+          ul.dropdown-menu
+            li: a(href="{{ site.baseurl }}/ct/") Overview
+            li: a(href="{{ site.baseurl }}/ct/blog-post") Blog Post
+            li: a(href="{{ site.baseurl }}/ct/product") Product
+            li: a(href="{{ site.baseurl }}/ct/service") Service 
+        li.dropdown
+          a(href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false").dropdown-toggle 25/8 <span class="caret"></span>
+          ul.dropdown-menu
+            li: a.h4 Project Links
+            //li: a(href="https://drive.google.com/open?id=0B4D2GCob1WryS1llbG5fV3g0aWs" target="_blank") MG | Google Docs
+            li: a(href="http://www.ebay.com/usr/distinct_pawn_and_gifts" target="_blank") DP | Ebay
+            li: a(href="https://www.facebook.com/DistinctPawnGifts" target="_blank") DP | Fb Page
+            li(role="separator").divider
+            li: a.h4 25/8 Links
+            li: a(href="https://drive.google.com/open?id=0B4D2GCob1WryS1llbG5fV3g0aWs" target="_blank") 25/8 | Google Docs
+            li: a(href="https://www.facebook.com/groups/194475130907094/" target="_blank") 25/8 | Facebook Group
+            li(role="separator").divider
+            li: a 
+              i.fa.fa-user
+              span  
+            li: a 
+              i.fa.fa-phone
+              span  
+            li: a 
+              i.fa.fa-envelope-o
+              span  
